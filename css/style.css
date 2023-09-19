@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+header {
+	height: 100px;
+	background-color: #4ea0ff;
+	background-image: url(../img/pattern.png);
+	background-size: 30%;
+}
+
+#logo {
+	height: 50px;
+	margin-top: 40px;
+}
+
+main {
+	padding-top: 16px;
+}
+
+main h1 {
+	font-size: 39px;
+	line-height: 42px;
+}
+
+.author {
+	color: gray;
+	font-size: 18px;
+}
+
+.author a {
+	color: #20a9e5;
+	text-decoration: none;
+}
+
+.date {
+	color: gray;
+	font-size: 12px;
+}
+
+main figure {
+	margin: 16px 0;
+}
+
+main figcaption {
+	font-size: 12px;
+}
+
+.highlight {
+	background: yellow;
+}
+
+.content p {
+	margin: 16px 0;
+}
+
+.content ul {
+	margin: 32px 16px;
+}
+
+.content table {
+	border-collapse: collapse;
+}
+
+.content table .wide-column {
+	width: 50%;
+}
+
+.content table thead {
+	background-color: #20a9e5;
+	color: white;
+}
+
+.content table .odd {
+	background-color: #b1e5f2;
+}
